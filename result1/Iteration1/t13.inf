@@ -1,0 +1,13 @@
+[t13]
+SnapshotXmlFile=snapshot_12.xml
+ContentType=text/html
+StepName=Submit Data: Order.action_2
+Total=1
+FileName1=t13.html
+RequestHeaderFile=t13_RequestHeader.txt
+ResponseHeaderFile=t13_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=Order.action_2
+RequestBodyFile=t13_RequestBody.txt
+RawStepStartTime=1574493849250
+URL1=http://localhost:8080/jpetstore/actions/Order.action

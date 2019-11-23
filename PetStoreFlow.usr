@@ -1,0 +1,75 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=PetStoreFlow.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=60
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.60.0.971
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=12.60.0.971
+DisableRegenerate=0
+Encoding=ANSI
+Description=
+ScriptLocale=en-IN
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="S02_T01_EntryPage__*delimiter*__S02_T02_HomePage__*delimiter*__S02_T03_SigninPage__*delimiter*__S02_T04_HomePageAfterSignin__*delimiter*__S02_T05_SelectCategory__*delimiter*__S02_T06_SelectProduct__*delimiter*__S02_T07_SelectItem__*delimiter*__S02_T08_AddToCart__*delimiter*__S02_T09_UpdateCart__*delimiter*__S02_T10_ProceedToCheckout__*delimiter*__S02_T11_FillBillingAndPaymentDetails__*delimiter*__S02_T12_FillShippingAddress__*delimiter*__S02_T13_ConfirmOrder__*delimiter*__S02_T14_ReturnToMainMenu__*delimiter*__S02_T15_SignOut"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+S02_T01_EntryPage=
+S02_T02_HomePage=
+S02_T03_SigninPage=
+S02_T04_HomePageAfterSignin=
+S02_T05_SelectCategory=
+S02_T06_SelectProduct=
+S02_T07_SelectItem=
+S02_T08_AddToCart=
+S02_T09_UpdateCart=
+S02_T10_ProceedToCheckout=
+S02_T11_FillBillingAndPaymentDetails=
+S02_T12_FillShippingAddress=
+S02_T13_ConfirmOrder=
+S02_T14_ReturnToMainMenu=
+S02_T15_SignOut=

@@ -1,0 +1,8 @@
+[parameter:host_localhost_8080]
+CurrentValue="localhost:8080"
+IsEncrypt="NO"
+IsServer="YES"
+OriginalValue="localhost:8080"
+ParamName="host_localhost_8080"
+Prompt=""
+Type="Custom"

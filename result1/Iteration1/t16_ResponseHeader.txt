@@ -1,0 +1,7 @@
+HTTP/1.1 200 
+Set-Cookie: JSESSIONID=F58BE8D7B8FED30AED095A7DDC00072A; Path=/jpetstore; HttpOnly
+Content-Type: text/html;charset=UTF-8
+Content-Language: en-IN
+Content-Length: 4540
+Date: Sat, 23 Nov 2019 07:24:18 GMT
+

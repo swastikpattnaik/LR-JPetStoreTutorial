@@ -1,0 +1,10 @@
+GET /jpetstore/actions/Catalog.action?viewProduct=&productId=FL-DSH-01 HTTP/1.1
+Referer: http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=CATS
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Accept-Language: en-IN,en-US;q=0.7,en;q=0.3
+Accept: */*
+Connection: Keep-Alive
+Host: localhost:8080
+Cookie: JSESSIONID=D7369ED7E3B9CAAB6F5B7CB4DB290209
+

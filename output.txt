@@ -1,0 +1,146 @@
+Virtual User Script started at: 23-11-2019 12:52:15
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (Aug 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\SWASTIK PATTNAIK\Documents\VuGen\Scripts\PetStore1\PetStoreFlow\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): Notify: Transaction "S02_T01_EntryPage" started.
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(9): web_url("jpetstore") started  	[MsgId: MMSG-26355]
+Action.c(9): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
+Action.c(9): web_url("jpetstore") was successful, 498 body bytes, 197 header bytes  	[MsgId: MMSG-26386]
+Action.c(37): Notify: Transaction "S02_T01_EntryPage" ended with a "Pass" status (Duration: 12.7611 Wasted Time: 0.1405).
+Action.c(40): Notify: Transaction "S02_T02_HomePage" started.
+Action.c(42): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(42): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(48): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action.c(48): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+Action.c(57): web_url("Catalog.action") started  	[MsgId: MMSG-26355]
+Action.c(57): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
+Action.c(57): web_url("Catalog.action") was successful, 5156 body bytes, 224 header bytes  	[MsgId: MMSG-26386]
+Action.c(66): Notify: Transaction "S02_T02_HomePage" ended with a "Pass" status (Duration: 10.0928 Wasted Time: 0.0130).
+Action.c(68): Notify: Transaction "S02_T03_SigninPage" started.
+Action.c(70): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(70): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(73): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(73): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(81): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(81): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(89): web_url("Sign In") started  	[MsgId: MMSG-26355]
+Action.c(89): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
+Action.c(89): web_url("Sign In") was successful, 3528 body bytes, 140 header bytes  	[MsgId: MMSG-26386]
+Action.c(98): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(98): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(100): Notify: Transaction "S02_T03_SigninPage" ended with a "Pass" status (Duration: 10.7324 Wasted Time: 0.0156).
+Action.c(102): Notify: Transaction "S02_T04_HomePageAfterSignin" started.
+Action.c(106): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(106): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(109): web_submit_data("Account.action") started  	[MsgId: MMSG-26355]
+Action.c(109): Redirecting "http://localhost:8080/jpetstore/actions/Account.action" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(109): To location "http://localhost:8080/jpetstore/actions/Catalog.action"  	[MsgId: MMSG-26693]
+Action.c(109): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
+Action.c(109): web_submit_data("Account.action") was successful, 4722 body bytes, 283 header bytes  	[MsgId: MMSG-26386]
+Action.c(124): Notify: Transaction "S02_T04_HomePageAfterSignin" ended with a "Pass" status (Duration: 5.4590 Wasted Time: 0.0077).
+Action.c(126): Notify: Transaction "S02_T05_SelectCategory" started.
+Action.c(128): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(128): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(133): web_url("sm_cats.gif") started  	[MsgId: MMSG-26355]
+Action.c(133): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
+Action.c(133): web_url("sm_cats.gif") was successful, 3343 body bytes, 140 header bytes  	[MsgId: MMSG-26386]
+Action.c(142): Notify: Transaction "S02_T05_SelectCategory" ended with a "Pass" status (Duration: 9.0823 Wasted Time: 0.0057).
+Action.c(144): Notify: Transaction "S02_T06_SelectProduct" started.
+Action.c(146): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(146): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(151): web_url("FL-DSH-01") started  	[MsgId: MMSG-26355]
+Action.c(151): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
+Action.c(151): web_url("FL-DSH-01") was successful, 3807 body bytes, 140 header bytes  	[MsgId: MMSG-26386]
+Action.c(160): Notify: Transaction "S02_T06_SelectProduct" ended with a "Pass" status (Duration: 2.5370 Wasted Time: 0.0060).
+Action.c(162): Notify: Transaction "S02_T07_SelectItem" started.
+Action.c(164): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(164): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(169): web_url("EST-14") started  	[MsgId: MMSG-26355]
+Action.c(169): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
+Action.c(169): web_url("EST-14") was successful, 3489 body bytes, 140 header bytes  	[MsgId: MMSG-26386]
+Action.c(178): Notify: Transaction "S02_T07_SelectItem" ended with a "Pass" status (Duration: 4.2444 Wasted Time: 0.0083).
+Action.c(180): Notify: Transaction "S02_T08_AddToCart" started.
+Action.c(182): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(182): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(187): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(187): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(195): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(195): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(203): web_url("Add to Cart") started  	[MsgId: MMSG-26355]
+Action.c(203): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
+Action.c(203): web_url("Add to Cart") was successful, 4262 body bytes, 140 header bytes  	[MsgId: MMSG-26386]
+Action.c(212): Notify: Transaction "S02_T08_AddToCart" ended with a "Pass" status (Duration: 5.4390 Wasted Time: 0.0078).
+Action.c(214): Notify: Transaction "S02_T09_UpdateCart" started.
+Action.c(216): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(216): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(221): web_submit_data("Cart.action") started  	[MsgId: MMSG-26355]
+Action.c(221): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
+Action.c(221): web_submit_data("Cart.action") was successful, 4264 body bytes, 140 header bytes  	[MsgId: MMSG-26386]
+Action.c(235): Notify: Transaction "S02_T09_UpdateCart" ended with a "Pass" status (Duration: 3.8012 Wasted Time: 0.0080).
+Action.c(237): Notify: Transaction "S02_T10_ProceedToCheckout" started.
+Action.c(239): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(239): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(244): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(244): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(252): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(252): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(260): web_url("Proceed to Checkout") started  	[MsgId: MMSG-26355]
+Action.c(260): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
+Action.c(260): web_url("Proceed to Checkout") was successful, 5002 body bytes, 140 header bytes  	[MsgId: MMSG-26386]
+Action.c(269): Notify: Transaction "S02_T10_ProceedToCheckout" ended with a "Pass" status (Duration: 14.7221 Wasted Time: 0.0144).
+Action.c(271): Notify: Transaction "S02_T11_FillBillingAndPaymentDetails" started.
+Action.c(273): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(273): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(278): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(278): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(286): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(286): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(294): web_submit_data("Order.action") started  	[MsgId: MMSG-26355]
+Action.c(294): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
+Action.c(294): web_submit_data("Order.action") was successful, 4231 body bytes, 140 header bytes  	[MsgId: MMSG-26386]
+Action.c(319): Notify: Transaction "S02_T11_FillBillingAndPaymentDetails" ended with a "Pass" status (Duration: 3.0163 Wasted Time: 0.0077).
+Action.c(321): Notify: Transaction "S02_T12_FillShippingAddress" started.
+Action.c(323): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(323): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(328): web_submit_data("Order.action_2") started  	[MsgId: MMSG-26355]
+Action.c(328): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
+Action.c(328): web_submit_data("Order.action_2") was successful, 4278 body bytes, 140 header bytes  	[MsgId: MMSG-26386]
+Action.c(349): Notify: Transaction "S02_T12_FillShippingAddress" ended with a "Pass" status (Duration: 2.4067 Wasted Time: 0.0065).
+Action.c(351): Notify: Transaction "S02_T13_ConfirmOrder" started.
+Action.c(353): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(353): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(358): web_url("Confirm") started  	[MsgId: MMSG-26355]
+Action.c(358): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
+Action.c(358): web_url("Confirm") was successful, 4967 body bytes, 140 header bytes  	[MsgId: MMSG-26386]
+Action.c(367): Notify: Transaction "S02_T13_ConfirmOrder" ended with a "Pass" status (Duration: 2.9461 Wasted Time: 0.0068).
+Action.c(369): Notify: Transaction "S02_T14_ReturnToMainMenu" started.
+Action.c(371): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(371): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(376): web_url("Return to Main Menu") started  	[MsgId: MMSG-26355]
+Action.c(376): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
+Action.c(376): web_url("Return to Main Menu") was successful, 4722 body bytes, 140 header bytes  	[MsgId: MMSG-26386]
+Action.c(385): Notify: Transaction "S02_T14_ReturnToMainMenu" ended with a "Pass" status (Duration: 2.5377 Wasted Time: 0.0106).
+Action.c(387): Notify: Transaction "S02_T15_SignOut" started.
+Action.c(389): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(389): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(392): web_url("Sign Out") started  	[MsgId: MMSG-26355]
+Action.c(392): Redirecting "http://localhost:8080/jpetstore/actions/Account.action?signoff=" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(392): To location "http://localhost:8080/jpetstore/actions/Catalog.action"  	[MsgId: MMSG-26693]
+Action.c(392): Registered web_reg_find successful for "Text=JPetStore Demo" (count=1)  	[MsgId: MMSG-26364]
+Action.c(392): web_url("Sign Out") was successful, 4540 body bytes, 367 header bytes  	[MsgId: MMSG-26386]
+Action.c(401): Notify: Transaction "S02_T15_SignOut" ended with a "Pass" status (Duration: 2.5981 Wasted Time: 0.0065).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

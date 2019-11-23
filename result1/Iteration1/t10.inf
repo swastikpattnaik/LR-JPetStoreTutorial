@@ -1,0 +1,13 @@
+[t10]
+SnapshotXmlFile=snapshot_9.xml
+ContentType=text/html
+StepName=Submit Data: Cart.action
+Total=1
+FileName1=t10.html
+RequestHeaderFile=t10_RequestHeader.txt
+ResponseHeaderFile=t10_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=Cart.action
+RequestBodyFile=t10_RequestBody.txt
+RawStepStartTime=1574493824880
+URL1=http://localhost:8080/jpetstore/actions/Cart.action

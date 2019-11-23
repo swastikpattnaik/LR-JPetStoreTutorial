@@ -1,0 +1,11 @@
+[t2]
+FileName1=t2_jpetstore.css
+URL1=http://localhost:8080/jpetstore/css/jpetstore.css
+Total=1
+ContentType=text/css
+SnapshotXmlFile=snapshot_2.xml
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t2_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

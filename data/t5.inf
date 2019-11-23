@@ -1,0 +1,11 @@
+[t5]
+FileName1=t5.html
+URL1=http://localhost:8080/jpetstore/actions/Account.action;jsessionid=32B9145198731A2E32A35B035343E9BA?signonForm=
+Total=1
+RequestHeaderFile=t5_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t5_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_5.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,10 @@
+GET /jpetstore/actions/Catalog.action HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://localhost:8080/jpetstore/actions/Order.action?newOrder=&confirmed=true
+Accept-Language: en-IN,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: localhost:8080
+Connection: Keep-Alive
+Cookie: JSESSIONID=32B9145198731A2E32A35B035343E9BA
+

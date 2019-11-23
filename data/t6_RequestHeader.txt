@@ -1,0 +1,13 @@
+POST /jpetstore/actions/Account.action HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://localhost:8080/jpetstore/actions/Account.action;jsessionid=32B9145198731A2E32A35B035343E9BA?signonForm=
+Accept-Language: en-IN,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+Host: localhost:8080
+Content-Length: 155
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: JSESSIONID=32B9145198731A2E32A35B035343E9BA
+

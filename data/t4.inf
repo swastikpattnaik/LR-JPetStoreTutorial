@@ -1,0 +1,11 @@
+[t4]
+SnapshotXmlFile=snapshot_4.xml
+FileName1=t4.gif
+URL1=http://localhost:8080/jpetstore/images/birds_icon.gif
+Total=1
+RequestHeaderFile=t4_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t4_ResponseHeader.txt
+ContentType=image/gif
+FrameIndex1=0
+UseFrameIndex=1
